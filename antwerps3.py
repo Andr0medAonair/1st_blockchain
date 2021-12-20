@@ -24,7 +24,7 @@ def mine_block():
     proof = blockchain.proof_of_work(previous_proof)
     previous_hash = blockchain.hash(previous_block)
     blockchain.add_transaction(
-        sender=node_address, receiver='Andr0medA', ammount=1)
+        sender=node_address, receiver='Joan Fontaine', ammount=1)
     block = blockchain.create_block(proof, previous_hash)
     res = {
         'message': 'Greetings and salutations, miner! You mined a block!',
