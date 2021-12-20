@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Dec  9 18:05:17 2021
+Created on Mon Dec 20 17:36:09 2021
 
 @author: rafaela.janeczko
 """
@@ -68,4 +68,4 @@ def add_transaction(req):
     return jsonify(res), constants.STATUS_CREATED
 
 
-app.run(host=constants.HOST, port=constants.PORT)
+app.run(host=constants.HOST, port=constants.PORT_C)
